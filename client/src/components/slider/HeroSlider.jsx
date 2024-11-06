@@ -1,13 +1,12 @@
-import Container from '../../components/shared/Container'
+
+import Image from '../shared/Image';
 
 const HeroSlider = () => {
     return (
         <div>
-            <Container>
-                <div>
-                    <h1>Hero Slider</h1>
-                </div>
-            </Container>
+
+            <Image src='/hero.jpg'></Image>
+
         </div>
     );
 };

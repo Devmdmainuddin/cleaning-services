@@ -9,6 +9,7 @@ import CheckOut from "../pages/CheckOut/CheckOut";
 import Contact from "../pages/ContactUs/Contact";
 import Login from "../pages/Authentication/Login";
 import Registation from "../pages/Authentication/Registation";
+import Services from "../pages/Services/Services";
 export const router = createBrowserRouter([
     {
       path: "/",
@@ -28,8 +29,8 @@ export const router = createBrowserRouter([
           element: <Blog />,
         },
         {
-          path: "/cart",
-          element: <Cart />,
+          path: "/services",
+          element: <Services />,
         },
         {
           path: "/checkOut",

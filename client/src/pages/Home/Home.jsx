@@ -1,9 +1,10 @@
+import HeroSlider from "../../components/slider/HeroSlider";
 
 
 const Home = () => {
     return (
-        <div>
-            <h2 className="text-red-500 ">home</h2>
+        <div className="bg-[">
+            <HeroSlider></HeroSlider>
         </div>
     );
 };
