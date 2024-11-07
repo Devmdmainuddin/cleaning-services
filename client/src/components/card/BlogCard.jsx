@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Image from "../shared/Image";
-
+import PropTypes from 'prop-types';
 
 const BlogCard = ({item}) => {
     const{image,title,description,auth,comment,date} = item;
@@ -20,5 +20,7 @@ const BlogCard = ({item}) => {
         </div>
     );
 };
-
+BlogCard.propTypes = {
+    item: PropTypes.object,
+}
 export default BlogCard;

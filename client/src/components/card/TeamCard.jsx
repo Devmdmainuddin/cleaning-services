@@ -1,6 +1,6 @@
 import Image from "../shared/Image";
 import { FaFacebookF, FaInstagramSquare, FaPinterestSquare, FaTwitter, FaYoutube } from "react-icons/fa";
-
+import PropTypes from 'prop-types';
 const TeamCard = ({ item }) => {
     return (
         <div className="w-[312px] hover:shadow-[rgba(50,_50,_93,_0.25)_0px_50px_100px_-20px,_rgba(0,_0,_0,_0.3)_0px_30px_60px_-30px]
@@ -22,5 +22,7 @@ const TeamCard = ({ item }) => {
         </div>
     );
 };
-
+TeamCard.propTypes = {
+    item: PropTypes.object,
+}
 export default TeamCard;

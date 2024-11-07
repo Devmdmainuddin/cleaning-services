@@ -1,5 +1,5 @@
 import Image from "../shared/Image";
-
+import PropTypes from 'prop-types';
 
 const ServiceCard = ({ item }) => {
     return (
@@ -23,5 +23,7 @@ const ServiceCard = ({ item }) => {
         </div>
     );
 };
-
+ServiceCard.propTypes = {
+    item: PropTypes.object,
+}
 export default ServiceCard;

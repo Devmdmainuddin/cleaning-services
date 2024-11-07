@@ -2,14 +2,13 @@ import { useEffect, useState } from "react";
 import Container from "./Container";
 import { Link, NavLink } from "react-router-dom";
 import Image from "./Image";
-
 import { HiMenuAlt1, HiMenuAlt3 } from "react-icons/hi";
-import useAuth from "../../hooks/useAuth";
+
 // IoMdClose,
 const Navbar = () => {
-    const { user, logOut } = useAuth()
+
     const [showMenu, setShowMenu] = useState(false);
-    const [proOpen, setProOpen] = useState(false);
+
 
 
     const toggleMenu = () => {
