@@ -6,7 +6,7 @@ import { TiMessage } from "react-icons/ti";
 
 const About = () => {
     return (
-        <div className="bg-[#F2FFFA] py-[164px]">
+        <div className="bg-[#F2FFFA] py-[264px]">
             <Container>
                 <div className="flex justify-center lg:justify-between items-center gap-[155px] lg:gap-0 flex-wrap relative">
                     <div className="image w-full lg:w-1/2 ">
