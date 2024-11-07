@@ -27,7 +27,7 @@ const Services = () => {
             id: 4,
             title: "Window Cleaning",
             description: "You’ll have your own moving representative on-call, any time of day or night. No automated systems or unanswered questions.",
-            image: "/s4.png"
+            image: "/s4.svg"
         },
         {
             id: 5,
@@ -56,7 +56,7 @@ const Services = () => {
     ];
     
     return (
-        <div className="py-[100px] bg-[linear-gradient(90deg,_rgba(225,_245,_238,_0.9682)_15%,_rgba(242,_247,_245,_1)_51%,_rgba(244,_247,_246,_0.6993)_95%,_rgba(245,_252,_250,_1)_100%,_rgba(246,_246,_247,_1)_100%)]">
+        <div className="py-[90px] bg-[linear-gradient(90deg,_rgba(225,_245,_238,_0.9682)_15%,_rgba(242,_247,_245,_1)_51%,_rgba(244,_247,_246,_0.6993)_95%,_rgba(245,_252,_250,_1)_100%,_rgba(246,_246,_247,_1)_100%)]">
             <Container>
                 <div className="relative">
                     <div>

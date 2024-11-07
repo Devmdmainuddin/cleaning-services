@@ -45,7 +45,7 @@ const HeroSlider = () => {
                         </div>
                     </SwiperSlide>
                 </Swiper>
-                <div className="absolute left-1/2 bottom-0 transform translate-x-[-50%] translate-y-[50%] w-2/3  bg-white z-20 p-4 rounded-[10px] shadow-[rgba(100,_100,_111,_0.2)_0px_7px_29px_0px]" >
+                <div className="hidden md:inline-block absolute left-1/2 bottom-0 transform translate-x-[-50%] translate-y-[50%] w-2/3  bg-white z-20 p-4 rounded-[10px] shadow-[rgba(100,_100,_111,_0.2)_0px_7px_29px_0px]" >
                     <div className='flex flex-wrap items-center gap-6 justify-center'>
                         <select name="" id="" className='w-[265px] text-[#505753] font-[Roboto] text-[14px] font-normal leading-[22px] tracking-[0.25px] p-4 border border-solid border-[#8FCCB3] outline-0 rounded-[5px]'>
                             <option value="">Appointment Cleaning</option>
