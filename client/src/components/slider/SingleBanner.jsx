@@ -7,11 +7,11 @@ const SingleBanner = () => {
         <div className="py-[92px] px-16 mt-[56px] bg-[#F2FFFA]">
             <Container>
                 <div className="flex flex-col md:flex-row justify-between items-center relative">
-                    <div className="image w-[437px] h-[562px]">
+                    <div className="image w-[437px] h-[562px] ">
                         {/* <img src="/hero.jpg" alt="" className='w-full md: border border-[#2B8761] rounded-[10px] relative mx-auto' /> */}
                         <Image src='/bns.png'></Image>
                     </div>
-                    <div className="content w-1/2">
+                    <div className="content w-1/2 ">
                         <h2 className="text-[#0C261A] font-typold text-[24px] font-normal leading-[33px]">Stay Connected by Phone</h2>
                         <p className="max-w-[435px] mt-4 text-[#515854] font-typold text-[15px] font-normal leading-[24px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque tincidunt nisl, morbi aliquet gravida. Lorem adipiscing urna.</p>
                     <div className="flex  items-center gap-3 mt-4">
